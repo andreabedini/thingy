@@ -186,3 +186,11 @@ I don't have a formal proof.
 1. Is this a known instance?
 2. Can it be obtained from other well-known constructions?
 
+## Prior art
+
+After publishing this note Arnaud Spiwack pointed be to the following works
+
+- https://hackage.haskell.org/package/successors
+- https://www.tweag.io/blog/2020-12-03-shrinks-applicative
+
+This seems to be a common (and indeed useful) reinvention.
