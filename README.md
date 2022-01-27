@@ -143,7 +143,7 @@ fromList [(1,'c'),(2,'c')]
 This led me to think there might be a more suitable applicative instance
 for lists, different from the monadic and the zipper ones.
 
-# Enter my "Thingy"
+## Enter my "Thingy"
 
 Following the intuition above, I cooked up this applicative instance for
 lists.
@@ -181,7 +181,7 @@ Which gives the right behaviour as demonstrated below
 This instance seems to be lawful (this repository includes some tests) but
 I don't have a formal proof.
 
-# Questions
+## Questions
 
 1. Is this a known instance?
 2. Can it be obtained from other well-known constructions?
